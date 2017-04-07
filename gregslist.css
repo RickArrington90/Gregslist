@@ -3,7 +3,7 @@
 }
 
 body {
-  margin: 0; /* Tricky: override browser default */
+  margin: 0; 
   padding: 80px;
 
   font-family: "Roboto", sans-serif;
@@ -31,7 +31,7 @@ header {
   padding: 0 6px;
 }
 
-/* Tricky / Interaction not obvious and not annotated, first :hover */
+
 a {
   text-decoration: none;
 }
@@ -42,7 +42,7 @@ a:hover {
 
 .rl-logo {
   display: inline-block;
-  border-radius: 100%;
+  
   font-weight: 800;
 }
 
@@ -85,7 +85,7 @@ label {
 }
 
 .pages {
-  display: inline-block; /* Tricky, this could start wrapping!  */
+  display: inline-block; 
   font-size: 0;
   margin-bottom: 30px;
   border: 1px solid #DDDDDD;
@@ -132,6 +132,3 @@ label {
   vertical-align: bottom;
 }
 
-.star-icon, .magnifying-glass-icon {
-  height: 100%;
-}
